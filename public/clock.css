@@ -1,0 +1,438 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: Luminari, fantasy;
+  font-weight: bold;
+}
+
+body {
+  background: url("https://img5.goodfon.com/original/2880x1800/c/dc/devochka-ruiny-derevo-fentezi-noch.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex; /* To Centre the clock */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Use min-height to position the clock down */
+  overflow: hidden; /* Stops you from being able to scroll */
+}
+
+.clock {
+  width: 450px;
+  height: 450px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  border: 4px solid black;
+  position: relative;
+}
+
+.clock .num {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform: rotate(var(--rotation));
+  font-size: 1.5rem;
+}
+
+.clock .line-1 {
+  --rotation: 30deg;
+  font-size: 30px;
+}
+
+.clock .second-1 {
+  --rotation: 6deg;
+}
+
+.clock .second-2 {
+  --rotation: 12deg;
+}
+
+.clock .second-3 {
+  --rotation: 18deg;
+}
+
+.clock .second-4 {
+  --rotation: 24deg;
+}
+
+.clock .line-2 {
+  --rotation: 60deg;
+  font-size: 30px;
+}
+
+.clock .num1 {
+  --rotation: 30deg;
+}
+
+.clock .second-5 {
+  --rotation: 36deg;
+}
+
+.clock .second-6 {
+  --rotation: 42deg;
+}
+
+.clock .second-7 {
+  --rotation: 48deg;
+}
+
+.clock .second-8 {
+  --rotation: 54deg;
+}
+
+.clock .line-3 {
+  --rotation: 90deg;
+  font-size: 30px;
+}
+
+.clock .num2 {
+  --rotation: 60deg;
+}
+
+.clock .second-9 {
+  --rotation: 66deg;
+}
+
+.clock .second-10 {
+  --rotation: 72deg;
+}
+
+.clock .second-11 {
+  --rotation: 78deg;
+}
+
+.clock .second-12 {
+  --rotation: 84deg;
+}
+
+.clock .line-4 {
+  --rotation: 120deg;
+  font-size: 30px;
+}
+
+.clock .num3 {
+  --rotation: 90deg;
+}
+
+.clock .second-13 {
+  --rotation: 96deg;
+}
+
+.clock .second-14 {
+  --rotation: 102deg;
+}
+
+.clock .second-15 {
+  --rotation: 108deg;
+}
+
+.clock .second-16 {
+  --rotation: 114deg;
+}
+
+.clock .num4 {
+  --rotation: 120deg;
+}
+
+.clock .line-5 {
+  --rotation: 150deg;
+  font-size: 30px;
+}
+
+.clock .second-17 {
+  --rotation: 126deg;
+}
+
+.clock .second-18 {
+  --rotation: 132deg;
+}
+
+.clock .second-19 {
+  --rotation: 138deg;
+}
+
+.clock .second-20 {
+  --rotation: 144deg;
+}
+
+.clock .num5 {
+  --rotation: 150deg;
+}
+
+.clock .line-6 {
+  --rotation: 180deg;
+  font-size: 30px;
+}
+
+.clock .second-21 {
+  --rotation: 156deg;
+}
+
+.clock .second-22 {
+  --rotation: 162deg;
+}
+
+.clock .second-23 {
+  --rotation: 168deg;
+}
+
+.clock .second-24 {
+  --rotation: 174deg;
+}
+
+.clock .num6 {
+  --rotation: 180deg;
+}
+
+.clock .line-7 {
+  --rotation: 210deg;
+  font-size: 30px;
+}
+
+.clock .second-25 {
+  --rotation: 186deg;
+}
+
+.clock .second-26 {
+  --rotation: 192deg;
+}
+
+.clock .second-27 {
+  --rotation: 198deg;
+}
+
+.clock .second-28 {
+  --rotation: 204deg;
+}
+
+.clock .num7 {
+  --rotation: 210deg;
+}
+
+.clock .line-8 {
+  --rotation: 240deg;
+  font-size: 30px;
+}
+
+.clock .second-29 {
+  --rotation: 216deg;
+}
+
+.clock .second-30 {
+  --rotation: 222deg;
+}
+
+.clock .second-31 {
+  --rotation: 228deg;
+}
+
+.clock .second-32 {
+  --rotation: 234deg;
+}
+
+.clock .num8 {
+  --rotation: 240deg;
+}
+
+.clock .line-9 {
+  --rotation: 270deg;
+  font-size: 30px;
+}
+
+.clock .second-33 {
+  --rotation: 246deg;
+}
+
+.clock .second-34 {
+  --rotation: 252deg;
+}
+
+.clock .second-35 {
+  --rotation: 258deg;
+}
+
+.clock .second-36 {
+  --rotation: 264deg;
+}
+
+.clock .num9 {
+  --rotation: 270deg;
+}
+
+.clock .line-10 {
+  --rotation: 300deg;
+  font-size: 30px;
+}
+
+.clock .second-37 {
+  --rotation: 276deg;
+}
+
+.clock .second-38 {
+  --rotation: 282deg;
+}
+
+.clock .second-39 {
+  --rotation: 288deg;
+}
+
+.clock .second-40 {
+  --rotation: 294deg;
+}
+
+.clock .num10 {
+  --rotation: 300deg;
+}
+
+.clock .line-11 {
+  --rotation: 330deg;
+  font-size: 30px;
+}
+
+.clock .second-41 {
+  --rotation: 306deg;
+}
+
+.clock .second-42 {
+  --rotation: 312deg;
+}
+
+.clock .second-43 {
+  --rotation: 318deg;
+}
+
+.clock .second-44 {
+  --rotation: 324deg;
+}
+
+.clock .num11 {
+  --rotation: 330deg;
+}
+
+.clock .line-12 {
+  --rotation: 360deg;
+  font-size: 30px;
+}
+
+.clock .second-45 {
+  --rotation: 336deg;
+}
+
+.clock .second-46 {
+  --rotation: 342deg;
+}
+
+.clock .second-47 {
+  --rotation: 348deg;
+}
+
+.clock .second-48 {
+  --rotation: 354deg;
+}
+
+.clock .num12 {
+  --rotation: 360deg;
+}
+
+.clock .flipNumber1 {
+  transform: rotate(-30deg);
+  margin-right: -3px;
+}
+
+.clock .flipNumber2 {
+  transform: rotate(-60deg);
+  margin-right: -3px;
+}
+
+.clock .flipNumber3 {
+  transform: rotate(-90deg);
+  margin-right: -3px;
+}
+
+.clock .flipNumber4 {
+  transform: rotate(-120deg);
+  margin-right: -3px;
+}
+
+.clock .flipNumber5 {
+  transform: rotate(-150deg);
+  margin-right: -3px;
+}
+
+.clock .flipNumber6 {
+  transform: rotate(-180deg);
+  margin-right: -3px;
+}
+
+.clock .flipNumber7 {
+  transform: rotate(-210deg);
+  margin-right: -3px;
+}
+
+.clock .flipNumber8 {
+  transform: rotate(-240deg);
+  margin-right: -3px;
+}
+
+.clock .flipNumber9 {
+  transform: rotate(-270deg);
+  margin-right: -3px;
+}
+
+.clock .flipNumber10 {
+  transform: rotate(-300deg);
+  margin-right: -3px;
+}
+
+.clock .flipNumber11 {
+  transform: rotate(-330deg);
+  margin-right: -3px;
+}
+
+.clock .hand {
+  --rotation: 0;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 10px;
+  height: 47%;
+  background-color: black;
+  border: 1px solid white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transform-origin: bottom;
+  z-index: 10;
+  transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+}
+
+.clock::after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  z-index: 11;
+  width: 15px;
+  height: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.clock .hand.second {
+  width: 3px;
+  height: 38%;
+  background-color: red;
+}
+
+.clock .hand.minute {
+  width: 7px;
+  height: 41%;
+  background-color: black;
+}
+
+.clock .hand.hour {
+  width: 10px;
+  height: 30%;
+  background-color: black;
+}
