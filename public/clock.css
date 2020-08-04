@@ -10,7 +10,7 @@ body {
   background: url("https://img5.goodfon.com/original/2880x1800/c/dc/devochka-ruiny-derevo-fentezi-noch.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex; /* To Centre the clock */
+  display: flex; /* To Centre the clock (right/left) */
   justify-content: center;
   align-items: center;
   min-height: 100vh; /* Use min-height to position the clock down */
