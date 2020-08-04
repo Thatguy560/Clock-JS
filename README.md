@@ -1,5 +1,5 @@
-# Clock - Made with Javascript
+# Clock - Made with Javascript, HTML/CSS
 
-<img src="Assets/Screenshot 2020-08-03 at 22.48.18.png" />
+<img src="Assets/Screenshot 2020-08-04 at 13.21.44.png" />
 
 #### README To be completed
