@@ -1,6 +1,9 @@
 # Clock - Made with Javascript, HTML/CSS
 
-<img src="Assets/Screenshot 2020-08-04 at 13.21.44.png" />
+<!-- <img src="Assets/Screenshot 2020-08-04 at 13.21.44.png" /> -->
+<p align="center">
+  <img src="DemoOfApp.gif" alt="animated" />
+</p>
 
 # Visit the deployed app in Heroku
 
